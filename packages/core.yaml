@@ -14,7 +14,7 @@
 substitutions:
   name: zb-gw03
 
-esphome:
+esp32:
   name: ${name}
 #  platform: ESP32
   board: esp-wrover-kit
