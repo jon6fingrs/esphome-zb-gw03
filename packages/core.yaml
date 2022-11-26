@@ -15,9 +15,11 @@ substitutions:
   name: zb-gw03
 
 esp32:
+  board: esp-wrover-kit
+  
+esphome: 
   name: ${name}
 #  platform: ESP32
-  board: esp-wrover-kit
   on_boot:
     priority: 600
     then:
